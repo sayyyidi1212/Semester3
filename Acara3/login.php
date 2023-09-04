@@ -8,7 +8,6 @@
 $users = [
     'Tasya' => '1234',
     'Edra' => '2424',
-    // Tambahkan pengguna lain sesuai kebutuhan.
 ];
 
 echo "Masukkan username: ";
@@ -17,7 +16,6 @@ $username = trim(readline());
 echo "Masukkan password: ";
 $pass = trim(readline());
 
-// Periksa apakah pengguna ada dalam daftar pengguna dan kata sandi sesuai.
 if (isset($users[$username]) && $users[$username] === $pass) {
     echo "Login berhasil! Selamat datang, $username!";
 } else {
@@ -25,4 +23,3 @@ if (isset($users[$username]) && $users[$username] === $pass) {
 }
 
 ?>
-
