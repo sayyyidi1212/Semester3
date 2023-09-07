@@ -1,7 +1,7 @@
 <?php
-echo "Membuat Fungsi <br>";
+echo "MEMBUAT FUNGSI \n";
 function berhasil() {
-    echo "Selemat Anda Berhasil";
+    echo "Selamat Anda Berhasil \n";
 }
 function gagal() {
     echo "Maaf Anda Gagal";
@@ -12,18 +12,19 @@ if ($nilai >= 75) {
 } else {
     gagal();
 }
-echo "<br>";
-echo "Fungsi dengan Parameter <br>";
-function jumlah ($a,$b) { // fungsi dengan 2 parameter
-    return $a + $b; // nilai kembali (return value)
+echo "\n";
+echo "FUNGSI DENGAN PARAMETER \n";
+function jumlah ($a,$b) { //fungsi denagn 2 parameter
+    return $a + $b; //nilai kembali (return value)
 } 
 $nilai1 = 10;
 $nilai2 = 15;
-echo jumlah($nilai,$nilai2); // passing parameter
-echo "<br>";
-echo "Fungsi Bawaan <br>";
+echo jumlah($nilai1,$nilai2); //passing parameter
+echo "\n";
+echo "\n";
+echo "FUNGSI BAWAAN ";
 $sekarang = getdate();
 print_r($sekarang); //hasilnya berupa array
-echo "<br>"; //ambil elemen untuk menampilkan tanggal
-echo "Sekarang tanggal :" . $sekarang["mday "];
+echo "\n"; //ambil elemen untuk menampilkan tanggal
+echo "Sekarang tanggal :" . $sekarang["mday"];
 ?>
